@@ -1,0 +1,24 @@
+{
+  "id": "542caddceda94fbeb97fc200ecd6e6a7",
+  "type": "view",
+  "channel": "Quebecor",
+  "title": "Thematiques",
+  "relationships": {
+    "collections": {
+      "data": [
+        {
+          "id": "featured-items",
+          "type": "collection"
+        },
+        {
+          "id": "featured-items",
+          "type": "collection"
+        },
+        {
+          "id": "featured-items",
+          "type": "collection"
+        }
+      ]
+    }
+  }
+}

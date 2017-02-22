@@ -1,0 +1,25 @@
+{
+  "id": "android",
+  "type": "platform",
+  "channel": "quebecor",
+  "platformType": "ANDROID",
+  "category": "MOBILE",
+  "active": true,
+  "features": {
+    "error_collection":{
+      "rollbar":{
+        "access_token":"1daebd805c174499a1a603621f24e315"
+      }
+    },
+    "tve_authentication":{
+      "sp_url": "http://sp.auth-staging.adobe.com/adobe-services"
+    }
+  },
+  "views": {
+    "homepage": "1ce943f48c184a57b8a7da4d6608c49d",
+    "sections": "a0464a743d2143c28537ea64b2cc384e",
+    "shows": "542caddceda94fbeb97fc200ecd6e6a3",
+    "showsThem": "542caddceda94fbeb97fc200ecd6e6a2",
+    "showsPlus": "542caddceda94fbeb97fc200ecd6e6a1"
+  }
+}

@@ -1,0 +1,326 @@
+{
+	"id": "indistrymedia",
+	"type": "channel",
+	"active": true,
+	"title": "Quebecor TVA",
+	"features": {
+		"app_map": {
+			"top_level_views": {
+				"homepage": {
+					"title": "Accueil",
+					"view_type": "carousel_rowlists",
+					"version": "1.0.0.0",
+					"menuIndex": 0,
+					"path": {
+						"carousel": {
+							"video": {
+								"context_view_type": "video_rowlists"
+							}
+						},
+						"rowlist": {
+							"collection": {
+								"context_view_type": "videos"
+							},
+							"video": {
+								"context_view_type": "video_rowlists"
+							}
+						}
+					}
+				},
+				"sections": {
+					"title": "Rattrapege tele",
+					"view_type": "collections",
+					"version": "1.0.0.0",
+					"menuIndex": 1,
+					"path": {
+						"collections": {
+							"collection": {
+								"context_view_type": "collection_rowlists"
+							}
+						}
+					}
+				},
+				"shows": {
+					"title": "Tous les contenus",
+					"view_type": "herocollections",
+					"version": "1.0.0.0",
+					"menuIndex": 2,
+					"path": {
+						"collections": {
+							"collection": {
+								"context_view_type": "show_rowlists"
+							}
+						}
+					}
+				},
+				"shows": {
+					"title": "En direct",
+					"view_type": "herocollections",
+					"version": "1.0.0.0",
+					"menuIndex": 3,
+					"path": {
+						"collections": {
+							"collection": {
+								"context_view_type": "show_rowlists"
+							}
+						}
+					}
+				},
+				"shows": {
+					"title": "Thematiques",
+					"view_type": "herocollections",
+					"version": "1.0.0.0",
+					"menuIndex": 4,
+					"path": {
+						"collections": {
+							"collection": {
+								"context_view_type": "show_rowlists"
+							}
+						}
+					}
+				},
+				"shows": {
+					"title": "Plus",
+					"view_type": "herocollections",
+					"version": "1.0.0.0",
+					"menuIndex": 4,
+					"path": {
+						"collections": {
+							"collection": {
+								"context_view_type": "show_rowlists"
+							}
+						}
+					}
+				}
+			},
+			"context_view_types": {
+				"collection_rowlists": {
+					"version": "1.0.0.0",
+					"path": {
+						"rowlist": {
+							"collection": {
+								"context_view_type": "videos"
+							},
+							"video": {
+								"context_view_type": "video_rowlists"
+							}
+						}
+					}
+				},
+				"show_rowlists": {
+					"version": "1.0.0.0",
+					"path": {
+						"rowlist": {
+							"collection": {
+								"context_view_type": "videos"
+							},
+							"video": {
+								"context_view_type": "video_rowlists"
+							}
+						}
+					}
+				},
+				"videos": {
+					"version": "1.0.0.0",
+					"path": {
+						"videos": {
+							"video": {
+								"context_view_type": "video_rowlists"
+							}
+						}
+					}
+				},
+				"video_rowlists": {
+					"version": "1.0.0.0",
+					"path": {
+						"rowlist": {
+							"video": {
+								"context_view_type": "video_rowlists"
+							}
+						}
+					}
+				}
+			}
+		},
+		"authentication": {
+			"enabled": false
+		},
+		"chromecast": {
+			"appId": "1CD32E17"
+		},
+        "contentSchedule": {
+            "useSchedule": false,
+            "scheduleType": "backlotScheduleApi",
+            "scheduleSourceUrl": "https://api.ooyala.com/v2/",
+            "defaultImg": ""
+        },
+		"error_collection": {
+			"rollbar": {
+				"access_token": "xxx"
+			}
+		},
+		"google_analytics": {
+			"propertyId": "UA-46206777-17"
+		},
+		"livechannels": {
+			"0": {
+				"id": "FusionLive",
+				"title": "Fusion Live | Pop culture.  Satire.  News.",
+				"relationships": {
+					"livevideo": {
+						"data": {
+							"id": "26bb6becb08d4cb1b96898d37d1bfa80",
+							"type": "video"
+						}
+					}
+				}
+			}
+		},
+		"metrics": {
+			"enabled": true,
+			"appInit": {
+				"action": "app:init",
+				"enabled": true
+			},
+			"viewLoad": {
+				"action": "view:load",
+				"enabled": true
+			},
+			"videoPlay": {
+				"action": "video:play",
+				"enabled": true
+			},
+			"videoPlaying": {
+				"action": "video:playing",
+				"enabled": true,
+				"interval": 30000
+			},
+			"videoStop": {
+				"action": "video:stop",
+				"enabled": true
+			},
+			"videoError": {
+				"action": "video:error",
+				"enabled": true
+			}
+		},
+		"schedules": {
+			"uri": "http://oddworks-generic.test.carbyne.ps.ooyala.com/content_schedules/",
+			"method": "GET"
+		},
+		"styles": {
+			"colors": {
+				"detailBackgroundColor": "#1D1D1D",
+				"headerBackgroundColor": "#3411B0",
+				"mainActionColor": "#FFFFFF",
+				"mainBackgroundColor": "#1D1D1D",
+				"menuActionColor": "#F2F2F2",
+				"menuSelectedColor": "#FFFFFF"
+			},
+			"gradients": {
+				"menuBackgroundColors": [
+					"#3411B0",
+					"#00FDBD"
+				]
+			},
+			"fonts": {
+				"activationCode": {
+					"fontName": "Roboto-Bold",
+					"size": 160
+				},
+				"activationURL": {
+					"fontName": "Roboto-BoldItalic",
+					"size": 64
+				},
+				"buttonLarge": {
+					"fontName": "Roboto-BoldItalic",
+					"size": 15
+				},
+				"buttonSmall": {
+					"fontName": "Roboto-BoldItalic",
+					"size": 11
+				},
+				"heroDescription": {
+					"fontName": "Roboto-Light",
+					"size": 14
+				},
+				"heroMetadata": {
+					"fontName": "Roboto-Regular",
+					"size": 12
+				},
+				"heroSubtitle": {
+					"fontName": "Roboto-Regular",
+					"size": 20
+				},
+				"heroTitle": {
+					"fontName": "Roboto-Bold",
+					"size": 28
+				},
+				"itemDetailDescription": {
+					"fontName": "Roboto-Light",
+					"size": 14
+				},
+				"itemDetailMetadata": {
+					"fontName": "Roboto-Regular",
+					"size": 12
+				},
+				"itemDetailSubtitle": {
+					"fontName": "Roboto-Regular",
+					"size": 20
+				},
+				"itemDetailTitle": {
+					"fontName": "Roboto-Bold",
+					"size": 28
+				},
+				"itemNonPlayableSubtitle": {
+					"fontName": "RobotoCondensed-Regular",
+					"size": 18
+				},
+				"itemNonPlayableTitle": {
+					"fontName": "Roboto-Regular",
+					"size": 24
+				},
+				"itemPlayableTitle": {
+					"fontName": "Roboto-Regular",
+					"size": 24
+				},
+				"itemSubtitle": {
+					"fontName": "RobotoCondensed-Regular",
+					"size": 13
+				},
+				"itemTag": {
+					"fontName": "RobotoCondensed-Regular",
+					"size": 11
+				},
+				"itemTitle": {
+					"fontName": "Roboto-Regular",
+					"size": 14
+				},
+				"listItemSubtitle": {
+					"fontName": "Roboto-Regular",
+					"size": 14
+				},
+				"listItemTitle": {
+					"fontName": "Roboto-Regular",
+					"size": 18
+				},
+				"menuItemDeselected": {
+					"fontName": "RobotoCondensed-Italic",
+					"size": 20
+				},
+				"menuItemSelected": {
+					"fontName": "RobotoCondensed-BoldItalic",
+					"size": 20
+				},
+				"pageTitle": {
+					"fontName": "RobotoCondensed-BoldItalic",
+					"size": 20
+				},
+				"sectionTitle": {
+					"fontName": "Roboto-Regular",
+					"size": 18
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1ce943f48c184a57b8a7da4d6608c49d",
+  "type": "view",
+  "channel": "Quebecor",
+  "title": "Accueil",
+  "relationships": {
+    "carousel": {
+      "data": {
+        "id": "carousel-items",
+        "type": "collection"
+      }
+    },
+    "rowlists": {
+      "data": [
+        {
+          "id": "featured-items",
+          "type": "collection"
+        }
+      ]
+    }
+  }
+}
