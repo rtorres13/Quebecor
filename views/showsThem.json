@@ -1,0 +1,11 @@
+{
+  "id": "indistrymedia-shows-them",
+  "type": "view",
+  "channel": "indistrymedia",
+  "title": "Thematiques",
+  "relationships": {
+    "collections": {
+      "data": []
+    }
+  }
+}

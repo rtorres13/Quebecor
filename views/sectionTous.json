@@ -1,0 +1,11 @@
+{
+  "id": "indistrymedia-section-tous",
+  "type": "view",
+  "channel": "indistrymedia",
+  "title": "Tous les contenus",
+  "relationships": {
+    "collections": {
+      "data": []
+    }
+  }
+}

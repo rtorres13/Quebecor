@@ -1,0 +1,11 @@
+{
+  "id": "indistrymedia-shows",
+  "type": "view",
+  "channel": "indistrymedia",
+  "title": "En direct",
+  "relationships": {
+    "collections": {
+      "data": []
+    }
+  }
+}

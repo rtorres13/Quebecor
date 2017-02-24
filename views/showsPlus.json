@@ -1,0 +1,11 @@
+{
+  "id": "indistrymedia-show-plus",
+  "type": "view",
+  "channel": "indistrymedia",
+  "title": "Plus",
+  "relationships": {
+    "collections": {
+      "data": []
+    }
+  }
+}

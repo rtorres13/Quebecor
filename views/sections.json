@@ -1,0 +1,11 @@
+{
+  "id": "indistrymedia-sections-all",
+  "type": "view",
+  "channel": "indistrymedia",
+  "title": "Rattrapege tele",
+  "relationships": {
+    "collections": {
+      "data": []
+    }
+  }
+}
