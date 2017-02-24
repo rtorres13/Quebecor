@@ -1,7 +1,7 @@
 {
-  "id": "web",
+  "id": "indistrymedia-web",
   "type": "platform",
-  "channel": "quebecor",
+  "channel": "indistrymedia",
   "platformType": "WEB",
   "category": "WEB",
   "active": true,
@@ -16,10 +16,10 @@
     }
   },
   "views": {
-    "homepage": "1ce943f48c184a57b8a7da4d6608c49d",
-    "sections": "a0464a743d2143c28537ea64b2cc384e",
-    "shows": "542caddceda94fbeb97fc200ecd6e6a3",
-    "showsThem": "542caddceda94fbeb97fc200ecd6e6a2",
-    "showsPlus": "542caddceda94fbeb97fc200ecd6e6a1"
+    "homepage": "indistrymedia-homepage",
+    "sections": "indistrymedia-sections-all",
+    "shows": "indistrymedia-shows",
+    "showsThem": "indistrymedia-shows-them",
+    "showsPlus": "indistrymedia-shows-plus"
   }
 }

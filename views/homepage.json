@@ -1,7 +1,7 @@
 {
-  "id": "1ce943f48c184a57b8a7da4d6608c49d",
+  "id": "indistrymedia-homepage",
   "type": "view",
-  "channel": "Quebecor",
+  "channel": "indistrymedia",
   "title": "Accueil",
   "relationships": {
     "carousel": {
