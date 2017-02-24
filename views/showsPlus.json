@@ -5,20 +5,7 @@
   "title": "Plus",
   "relationships": {
     "collections": {
-      "data": [
-        {
-          "id": "featured-items",
-          "type": "collection"
-        },
-        {
-          "id": "featured-items",
-          "type": "collection"
-        },
-        {
-          "id": "featured-items",
-          "type": "collection"
-        }
-      ]
+      "data": []
     }
   }
 }

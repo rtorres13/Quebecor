@@ -5,18 +5,10 @@
   "title": "Accueil",
   "relationships": {
     "carousel": {
-      "data": {
-        "id": "carousel-items",
-        "type": "collection"
-      }
+      "data": []
     },
     "rowlists": {
-      "data": [
-        {
-          "id": "featured-items",
-          "type": "collection"
-        }
-      ]
+      "data": []
     }
   }
 }
