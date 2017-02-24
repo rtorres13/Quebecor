@@ -5,7 +5,12 @@
   "title": "Rattrapege tele",
   "relationships": {
     "collections": {
-      "data": []
+      "data": [
+        {
+          "id": "indistrymedia-example-collection",
+          "type": "collection"
+        }
+      ]
     }
   }
 }
