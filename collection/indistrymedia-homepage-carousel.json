@@ -1,0 +1,16 @@
+{
+  "id": "indistrymedia-homepage-carousel",
+  "type": "collection",
+  "channel": "indistrymedia",
+  "title": "Example Carousel",
+  "description": "",
+  "images": [
+  ],
+  "relationships": {
+    "entities": {
+      "data": []
+    }
+  },
+  "genres": [],
+  "releaseDate": "2017-01-24"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "indistrymedia-example-collection",
+  "type": "collection",
+  "channel": "indistrymedia",
+  "title": "Example Collection",
+  "description": "",
+  "images": [
+  ],
+  "relationships": {
+    "entities": {
+      "data": []
+    }
+  },
+  "genres": [],
+  "releaseDate": "2017-01-24"
+}

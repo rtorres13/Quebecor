@@ -5,10 +5,20 @@
   "title": "Accueil",
   "relationships": {
     "carousel": {
-      "data": []
+      "data": [
+        {
+          "id": "indistrymedia-homepage-carousel",
+          "type": "collection"
+        }
+      ]
     },
     "rowlists": {
-      "data": []
+      "data": [
+        {
+          "id": "indistrymedia-example-rowlist",
+          "type": "collection"
+        }
+      ]
     }
   }
 }

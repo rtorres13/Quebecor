@@ -1,0 +1,16 @@
+{
+  "id": "indistrymedia-example-rowlist",
+  "type": "collection",
+  "channel": "indistrymedia",
+  "title": "Example Rowlist",
+  "description": "",
+  "images": [
+  ],
+  "relationships": {
+    "entities": {
+      "data": []
+    }
+  },
+  "genres": [],
+  "releaseDate": "2017-01-24"
+}

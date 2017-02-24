@@ -5,7 +5,12 @@
   "title": "Tous les contenus",
   "relationships": {
     "collections": {
-      "data": []
+      "data": [
+        {
+          "id": "indistrymedia-example-collection",
+          "type": "collection"
+        }
+      ]
     }
   }
 }

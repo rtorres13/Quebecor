@@ -5,7 +5,12 @@
   "title": "Thematiques",
   "relationships": {
     "collections": {
-      "data": []
+      "data": [
+        {
+          "id": "indistrymedia-example-collection",
+          "type": "collection"
+        }
+      ]
     }
   }
 }
